@@ -123,21 +123,20 @@ réparties entre des microservices indépendants. Chaque microservice est
 responsable de ses données et expose des interfaces documentées aux
 autres composants.
 
-La thématique du projet prévoit **9 microservices métier**. La liste
-définitive et les responsabilités doivent être complétées par l'équipe
-après validation du découpage.
+La thématique fournie décrit une architecture de **9 microservices métier**.
+Pour la première proposition de conception, l'équipe a choisi de regrouper
+le périmètre fonctionnel autour de **6 microservices**. Ce choix doit être
+confirmé par l'enseignant avant la validation définitive de l'architecture.
 
-    N° Microservice   Responsabilité principale   Responsable
-  ---- -------------- --------------------------- -------------
-     1 À compléter    À compléter                 À compléter
-     2 À compléter    À compléter                 À compléter
-     3 À compléter    À compléter                 À compléter
-     4 À compléter    À compléter                 À compléter
-     5 À compléter    À compléter                 À compléter
-     6 À compléter    À compléter                 À compléter
-     7 À compléter    À compléter                 À compléter
-     8 À compléter    À compléter                 À compléter
-     9 À compléter    À compléter                 À compléter
+| N° | Microservice | Responsabilité principale | Responsable |
+|---:|---|---|---|
+| 1 | Learning Content | Gestion des langues, niveaux CECRL, certifications, sujets et exercices | Assil Daasi |
+| 2 | Oral Practice | Gestion des entraînements et des sessions de prise de parole | Mohamed Aziz Chaabi |
+| 3 | Exam Simulation | Gestion des simulations d'examens oraux et de leur déroulement | Rihem Elghali |
+| 4 | AI Speech Analysis | Transcription et analyse de la prononciation, de la fluidité et de l'intonation | Mohamed Aziz Abbes |
+| 5 | Evaluation & Feedback | Gestion des scores, évaluations et retours personnalisés | Elisabeth Djimadoumngar |
+| 6 | Progress & Dashboard | Historique, indicateurs et visualisation de la progression | Amine Bousselmi |
+
 
 ### Composants transversaux de l'architecture
 
@@ -199,9 +198,9 @@ avec les consignes du module.
   -----------------------------------------------------------------------
   Couche / composant                  Technologie prévue ou à confirmer
   ----------------------------------- -----------------------------------
-  Frontend                            À confirmer
+  Frontend                            Angular
 
-  Microservices métier                À confirmer
+  Microservices métier                Spring Boot
 
   API Gateway                         Spring Cloud Gateway (prévu si
                                       stack Spring retenue)
@@ -224,18 +223,15 @@ avec les consignes du module.
 
 La structure doit respecter les livrables de la Validation 1 :
 
-``` text
+```text
 SpeakUP/
 ├── Backend/
-│   ├── microservice-1/
-│   ├── microservice-2/
-│   ├── microservice-3/
-│   ├── microservice-4/
-│   ├── microservice-5/
-│   ├── microservice-6/
-│   ├── microservice-7/
-│   ├── microservice-8/
-│   └── microservice-9/
+│   ├── learning-content/
+│   ├── oral-practice/
+│   ├── exam-simulation/
+│   ├── ai-speech-analysis/
+│   ├── evaluation-feedback/
+│   └── progress-dashboard/
 ├── Frontend/
 ├── Documentation/
 │   ├── Presentation/
@@ -303,14 +299,14 @@ cadre et autorisation appropriés.
 
 **Équipe : 6 étudiants**
 
-    Étudiant Nom et prénom   Microservice attribué
-  ---------- --------------- -----------------------
-           1 À compléter     À compléter
-           2 À compléter     À compléter
-           3 À compléter     À compléter
-           4 À compléter     À compléter
-           5 À compléter     À compléter
-           6 À compléter     À compléter
+| Étudiant | Nom et prénom | Microservice attribué |
+|---:|---|---|
+| 1 | Assil Daasi | Learning Content |
+| 2 | Mohamed Aziz Chaabi | Oral Practice |
+| 3 | Rihem Elghali | Exam Simulation |
+| 4 | Mohamed Aziz Abbes | AI Speech Analysis |
+| 5 | Elisabeth Djimadoumngar | Evaluation & Feedback |
+| 6 | Amine Bousselmi | Progress & Dashboard |
 
 ## 12. Démarrage du projet
 

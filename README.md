@@ -305,12 +305,12 @@ cadre et autorisation appropriés.
 
     Étudiant Nom et prénom   Microservice attribué
   ---------- --------------- -----------------------
-    1 À compléter     À compléter
-    2 Elisabeth Djimadoumngar    Evaluation & Feedback
-    3 À compléter     À compléter
-    4 À compléter     À compléter
-    5 À compléter     À compléter
-    6 À compléter     À compléter
+           1 À compléter     À compléter
+           2 À compléter     À compléter
+           3 À compléter     À compléter
+           4 À compléter     À compléter
+           5 À compléter     À compléter
+           6 À compléter     À compléter
 
 ## 12. Démarrage du projet
 

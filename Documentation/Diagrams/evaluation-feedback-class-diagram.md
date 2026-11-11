@@ -13,8 +13,8 @@ class Evaluation {
   +Long recordingId
   +String learnerId
   +Language language
-  +CefrLevel targetLevel
-  +CefrLevel estimatedLevel
+  +CecrlLevel targetLevel
+  +CecrlLevel estimatedLevel
   +String transcription
   +Double globalScore
   +EvaluationStatus status
@@ -60,7 +60,7 @@ class Language {
   EN
 }
 
-class CefrLevel {
+class CecrlLevel {
   <<enumeration>>
   B1
   B2
@@ -99,7 +99,7 @@ Evaluation "1" *-- "0..*" Recommendation : propose
 Evaluation "1" *-- "0..1" TrainerReview : révisée par
 
 Evaluation ..> Language
-Evaluation ..> CefrLevel
+Evaluation ..> CecrlLevel
 Evaluation ..> EvaluationStatus
 CriterionScore ..> CriterionType
 Recommendation ..> CriterionType

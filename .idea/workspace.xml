@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2069b5f-0ab2-424c-80d6-c411f91661ba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Backend/Evaluation &amp; Feedback/Evaluation_Feedback/src/main/java/tn/esprit/evaluation_feedback/Controllers/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="temurin-17" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000778795011664" />
+      <entry key="S2" value="1.1813139383740858" />
+      <entry key="S5" value="2.885285829115312" />
+      <entry key="S10" value="6.62760507499444" />
+      <entry key="S30" value="15.86762197135703" />
+      <entry key="S60" value="20.829506342509468" />
+      <entry key="M2" value="24.077774516315355" />
+      <entry key="M5" value="26.340747745196982" />
+      <entry key="M10" value="27.154439066300057" />
+      <entry key="M15" value="27.432683604023456" />
+      <entry key="M30" value="27.714519910906787" />
+      <entry key="H1" value="27.856801200570008" />
+      <entry key="H2" value="27.928285498538646" />
+      <entry key="H4" value="27.964113922030872" />
+      <entry key="D1" value="27.994014978817162" />
+      <entry key="W1" value="27.99914489875669" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.005299235654092465" />
+      <entry key="MS500" value="0.3506258745327169" />
+      <entry key="S2" value="0.8853980043803074" />
+      <entry key="S5" value="2.6120517338288614" />
+      <entry key="S10" value="6.372108656338026" />
+      <entry key="S30" value="15.702568772547606" />
+      <entry key="S60" value="20.72749870681925" />
+      <entry key="M2" value="24.02059939899303" />
+      <entry key="M5" value="26.316188001549644" />
+      <entry key="M10" value="27.14185806764046" />
+      <entry key="M15" value="27.424227825560877" />
+      <entry key="M30" value="27.710257407970214" />
+      <entry key="H1" value="27.85466122161179" />
+      <entry key="H2" value="27.927213317857664" />
+      <entry key="H4" value="27.96357728271925" />
+      <entry key="D1" value="27.993925462586333" />
+      <entry key="W1" value="27.99913210885273" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3LvyionygWjnJ8GbIllWkqqRLyJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.EvaluationFeedbackApplication.executor": "Run",
+    "Spring Boot.ExamSimulationApplication.executor": "Run",
+    "git-widget-placeholder": "elisabeth",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/daass/OneDrive/Bureau/projet web distribuer/SpeakUp-4SSA6-g3/Backend",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\daass\OneDrive\Bureau\projet web distribuer\SpeakUp-4SSA6-g3\Documentation\Presentation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\graci\Projets\SpeakUp-4SSA6-g3\Backend\Evaluation &amp; Feedback" />
+      <recent name="C:\Users\daass\OneDrive\Bureau\projet web distribuer\SpeakUp-4SSA6-g3\Documentation\Presentation" />
+      <recent name="C:\Users\daass\OneDrive\Bureau\projet web distribuer\SpeakUp-4SSA6-g3\Documentation\Diagrams" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EvaluationFeedbackApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SpeakUp-4SSA6-g3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SpeakUp-4SSA6-g3" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvaluationFeedbackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Evaluation_Feedback" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.evaluation_feedback.EvaluationFeedbackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamSimulationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Exam_Simulation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.exam_simulation.ExamSimulationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2069b5f-0ab2-424c-80d6-c411f91661ba" name="Changes" comment="" />
+      <created>1794348965634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794348965634</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

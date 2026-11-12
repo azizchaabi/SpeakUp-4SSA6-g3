@@ -5,7 +5,17 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Backend/Exam Simulation/Exam_Simulation/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Learning Content/LearningContent/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Learning_Content/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Learning Content/Learning_Content/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Backend/Exam Simulation/Exam_Simulation/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Learning Content/LearningContent/pom.xml" />
+        <option value="$PROJECT_DIR$/Backend/Learning_Content/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="temurin-17" project-jdk-type="JavaSDK">

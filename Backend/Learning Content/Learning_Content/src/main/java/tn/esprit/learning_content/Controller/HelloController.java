@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/Hello")
+@RequestMapping("/api/Hello Controlle")
 public class HelloController {
 
-    @GetMapping("/hello")
+    @GetMapping("/hello Controlle")
     public String hello() {
         return "Hello from my Learning Content Microservice!";
     }

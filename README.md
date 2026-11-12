@@ -155,13 +155,12 @@ composants suivants :
 
 ### Communication entre services
 
-Les interactions seront définies dans le diagramme d'architecture et
-dans la documentation de chaque microservice.
+Les interactions sont définies et documentées dans les diagrammes d'architecture du projet :
+- **[Diagramme de Communication Global](Documentation/Diagrams/diagramme-de-communication.md)** : flux d'échanges entre l'utilisateur, le Frontend React et les 6 microservices.
+- **[Diagramme de Classes Global](Documentation/Diagrams/diagramme-de-classes-global.md)** : synthèse unifiée des modèles de données et corrélations inter-services.
 
--   **Synchrone** : API REST et, si retenu, OpenFeign pour les appels
-    qui nécessitent une réponse immédiate.
--   **Asynchrone** : événements via un broker de messages (par exemple
-    RabbitMQ) pour les traitements longs, notamment l'analyse audio.
+-   **Synchrone** : API REST et OpenFeign pour les requêtes utilisateurs et appels nécessitant une réponse immédiate.
+-   **Asynchrone** : événements via un broker de messages (RabbitMQ) pour les traitements longs, notamment l'analyse audio.
 
 Le traitement audio doit être isolé afin qu'une analyse longue ne bloque
 pas l'interface. Le choix définitif des protocoles, événements et

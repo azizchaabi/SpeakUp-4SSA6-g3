@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from my Learning Content Microservice!";
+        return "Hello from my Evaluation Feedback Microservice!";
     }
 }

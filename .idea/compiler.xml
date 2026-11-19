@@ -8,13 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Exam_Simulation" />
       </profile>
-      <profile name="Annotation profile for Evaluation_Feedback" enabled="true">
+      <profile name="Annotation profile for Oral Practice" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.48/lombok-1.18.48.jar" />
         </processorPath>
+        <module name="OralPractice" />
+        <module name="Learning_Content" />
         <module name="Evaluation_Feedback" />
       </profile>
     </annotationProcessing>
@@ -23,6 +25,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Evaluation_Feedback" options="-parameters" />
       <module name="Exam_Simulation" options="-parameters" />
+      <module name="Learning_Content" options="-parameters" />
+      <module name="OralPractice" options="-parameters" />
     </option>
   </component>
 </project>

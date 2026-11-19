@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2069b5f-0ab2-424c-80d6-c411f91661ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Backend/Evaluation &amp; Feedback/Evaluation_Feedback/src/main/java/tn/esprit/evaluation_feedback/Controllers/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Evaluation &amp; Feedback/Evaluation_Feedback/src/main/java/tn/esprit/evaluation_feedback/Controllers/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Evaluation &amp; Feedback/Evaluation_Feedback/src/main/java/tn/esprit/evaluation_feedback/Controllers/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Evaluation &amp; Feedback/Evaluation_Feedback/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Evaluation &amp; Feedback/Evaluation_Feedback/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Learning Content/Learning_Content/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Learning Content/Learning_Content/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Oral Practice/Oral Practice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Oral Practice/Oral Practice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,11 +116,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EvaluationFeedbackApplication.executor": "Run",
+    "Application.LearningContentApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.EvaluationFeedbackApplication.executor": "Run",
     "Spring Boot.ExamSimulationApplication.executor": "Run",
-    "git-widget-placeholder": "elisabeth",
+    "Spring Boot.LearningContentApplication.executor": "Run",
+    "Spring Boot.OralPracticeApplication.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/daass/OneDrive/Bureau/projet web distribuer/SpeakUp-4SSA6-g3/Backend",
     "node.js.detected.package.jshint": "true",
@@ -125,7 +133,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -138,13 +146,7 @@
       <recent name="C:\Users\daass\OneDrive\Bureau\projet web distribuer\SpeakUp-4SSA6-g3\Documentation\Diagrams" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.EvaluationFeedbackApplication">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="SpeakUp-4SSA6-g3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="SpeakUp-4SSA6-g3" />
       <option name="filePath" />
@@ -185,6 +187,9 @@
       <updated>1794348965634</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.py" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

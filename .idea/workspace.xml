@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2069b5f-0ab2-424c-80d6-c411f91661ba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Backend/EurekaServer/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/EurekaServer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/EurekaServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/EurekaServer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/EurekaServer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/EurekaServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/EurekaServer/src/main/java/tn/esprit/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/EurekaServer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/EurekaServer/src/test/java/tn/esprit/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Evaluation &amp; Feedback/Evaluation_Feedback/src/main/java/tn/esprit/evaluation_feedback/Controllers/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Evaluation &amp; Feedback/Evaluation_Feedback/src/main/java/tn/esprit/evaluation_feedback/Controllers/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Evaluation &amp; Feedback/Evaluation_Feedback/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Evaluation &amp; Feedback/Evaluation_Feedback/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Learning Content/Learning_Content/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Learning Content/Learning_Content/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Oral Practice/Oral Practice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Oral Practice/Oral Practice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Oral Practice/Oral Practice/src/main/java/com/speakup/oralpractice/OralPracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Oral Practice/Oral Practice/src/main/java/com/speakup/oralpractice/OralPracticeApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/Oral Practice/Oral Practice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Oral Practice/Oral Practice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +114,9 @@
       <entry key="W1" value="27.99913210885273" />
     </decayedShown>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -118,12 +129,17 @@
   "keyToString": {
     "Application.EvaluationFeedbackApplication.executor": "Run",
     "Application.LearningContentApplication.executor": "Run",
+    "Maven.EurekaServer [org.apache.maven.plugins:maven-clean-plugin:3.5.0:clean].executor": "Run",
+    "Maven.EurekaServer [org.apache.maven.plugins:maven-install-plugin:3.1.4:install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
     "Spring Boot.EvaluationFeedbackApplication.executor": "Run",
     "Spring Boot.ExamSimulationApplication.executor": "Run",
     "Spring Boot.LearningContentApplication.executor": "Run",
     "Spring Boot.OralPracticeApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/daass/OneDrive/Bureau/projet web distribuer/SpeakUp-4SSA6-g3/Backend",
@@ -146,7 +162,7 @@
       <recent name="C:\Users\daass\OneDrive\Bureau\projet web distribuer\SpeakUp-4SSA6-g3\Documentation\Diagrams" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.EvaluationFeedbackApplication">
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="SpeakUp-4SSA6-g3" />
       <option name="filePath" />
@@ -169,11 +185,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OralPracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="OralPractice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.speakup.oralpractice.OralPracticeApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.speakup.oralpractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OralPracticeApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
       </set>
     </attachedChunks>
   </component>
@@ -188,8 +224,23 @@
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-context" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+    <option featureType="dependencySupport" implementationName="java:junit:junit" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.py" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.ws.rs:jakarta.ws.rs-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
